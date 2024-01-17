@@ -29,13 +29,25 @@ margin: 10px;
     }
 
 .pata{
-        width: 1500px;
+        display:inline-block;
+         width: 1500px;
         height: 200px;
         background-color: rgb(0, 0, 0);
         margin: 10px;
+        color: aliceblue;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 50px;
+        padding-right: 5%;
+        text-align: center;
     }
         
 .gaymeil{
     width: 250px;
     height: 50;
+}
+a{
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    top: 60px;
 }
