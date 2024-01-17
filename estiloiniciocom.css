@@ -1,0 +1,75 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+.mapa{
+width: 1000px;
+height: 600px;
+background-color: rgb(131, 57, 57);
+margin: 10px;
+}
+
+.tarjeta{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(208, 205, 139);
+    margin: 10px;
+    border-radius: 5%;
+    text-align: center;
+    -webkit-box-shadow: 25px 25px 53px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 25px 25px 53px 7px rgba(0,0,0,0.75);
+box-shadow: 25px 25px 53px 7px rgba(0,0,0,0.75);
+
+    }
+
+.pata{
+        width: 1500px;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+        margin: 10px;
+    }
+        
+.gaymeil{
+    position: relative;
+    top: 30px;
+    width: 250px;
+    height: 50;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.contra{
+    position: relative;
+    top: 60px;
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.crear{
+    position: relative;
+    top: 60px;
+    color: rgb(10, 10, 134);
+    font-size: small;
+}
+
+.logface{
+    position: relative;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    top: 60px;
+    right: 50px;
+}
