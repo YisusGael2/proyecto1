@@ -11,6 +11,11 @@ body{
     
 }
 
+.tec{
+    width: 1000px;
+    height: 600px;
+}
+
 .mapa{
 width: 1000px;
 height: 600px;
@@ -25,29 +30,72 @@ margin: 10px;
     margin: 10px;
     border-radius: 5%;
     text-align: center;
+    -webkit-box-shadow: 25px 25px 53px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 25px 25px 53px 7px rgba(0,0,0,0.75);
+box-shadow: 25px 25px 53px 7px rgba(0,0,0,0.75);
 
     }
+
+.pata{
+        width: 1500px;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+        margin: 10px;
+    }
+        
+.gaymeil{
+    position: relative;
+    top: 30px;
+    width: 250px;
+    height: 50;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.contra{
+    position: relative;
+    top: 60px;
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.crear{
+    position: relative;
+    top: 60px;
+    color: rgb(10, 10, 134);
+    font-size: small;
+}
+
+.logface{
+    position: relative;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    top: 60px;
+    right: 50px;
+}
 
 .pata{
         display:inline-block;
          width: 1500px;
         height: 200px;
-        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        background-color: rgb(232, 102, 85);
         margin: 10px;
         color: aliceblue;
         font-family: 'Nunito Sans', sans-serif;
         font-size: 50px;
         padding-right: 5%;
+        box-shadow: 25px 25px 53px 7px rgba(0,0,0,0.75);
         text-align: center;
     }
-        
-.gaymeil{
-    width: 250px;
-    height: 50;
-}
 a{
     margin: 20px;
     text-align: center;
     position: relative;
     top: 60px;
-}
+} 
